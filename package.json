@@ -1,0 +1,43 @@
+{
+  "name": "react-justified",
+  "version": "1.0.0",
+  "description": "React Justified Grids",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "cd example && webpack-dev-server",
+    "build": "make build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottoasis/react-justified.git"
+  },
+  "keywords": [
+    "React",
+    "Justified Layout",
+    "Justified Gallery"
+  ],
+  "author": "Scott Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottoasis/react-justified/issues"
+  },
+  "homepage": "https://github.com/scottoasis/react-justified#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.50",
+    "@types/react": "^15.6.6",
+    "@types/react-dom": "^16.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "ejs-render-loader": "^1.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "ts-loader": "^3.1.1",
+    "typescript": "^2.6.1",
+    "webpack": "^3.8.1",
+    "webpack-cli": "^1.4.5",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
